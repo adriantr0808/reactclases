@@ -63,7 +63,7 @@ class Contador extends Component {
 
         <button
           onClick={() => {
-            miMetodoRnder();
+            miMetodoRender();
             miFunction();
             //Los metodos y elementos de clase siempre deben llevar this
             this.incrementarContador();

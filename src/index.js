@@ -3,14 +3,17 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import "./components/App/App.css";
 //import App from "./components/App/App";
-import Contador from "./components/Contador/Contador";
+//import Contador from "./components/Contador/Contador";
+import DibujosComplejos from "./components/DibujosComplejos/DibujosComplejos";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
     <div className="App">
-      <Contador Inicio="25" />
-      <Contador Inicio="11" />
+      {/* <Contador Inicio="25" />
+      <Contador Inicio="11" /> */}
+
+      <DibujosComplejos />
     </div>
   </React.StrictMode>,
   document.getElementById("root")
