@@ -1,6 +1,7 @@
 //Debemos importar siempre {Component}
 //Con JSX
 import { Component } from "react";
+import React, { useState } from "react";
 
 //Tambien poemos utlizar functions con sintazis
 //de Javascript para separar codigo
