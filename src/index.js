@@ -7,6 +7,7 @@ import "./components/App/App.css";
 //import DibujosComplejos from "./components/DibujosComplejos/DibujosComplejos";
 import Deportes from './components/Deportes/Deportes';
 import reportWebVitals from "./reportWebVitals";
+import Numeros from "./components/Numeros/Numeros";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +17,8 @@ ReactDOM.render(
 
       {/* <DibujosComplejos /> */}
 
-      <Deportes/>
+      {/* <Deportes/> */}
+      <Numeros/>
     </div>
   </React.StrictMode>,
   document.getElementById("root")
