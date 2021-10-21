@@ -4,7 +4,8 @@ import "./index.css";
 import "./components/App/App.css";
 //import App from "./components/App/App";
 //import Contador from "./components/Contador/Contador";
-import DibujosComplejos from "./components/DibujosComplejos/DibujosComplejos";
+//import DibujosComplejos from "./components/DibujosComplejos/DibujosComplejos";
+import Deportes from './components/Deportes/Deportes';
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -13,7 +14,9 @@ ReactDOM.render(
       {/* <Contador Inicio="25" />
       <Contador Inicio="11" /> */}
 
-      <DibujosComplejos />
+      {/* <DibujosComplejos /> */}
+
+      <Deportes/>
     </div>
   </React.StrictMode>,
   document.getElementById("root")

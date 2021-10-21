@@ -44,11 +44,7 @@ class DibujosComplejos extends Component {
           //A diferencia de el codigo en metodo
           //Aqui pondremos el return directo del codigo
           //Que deseemos
-          return (
-            <div>
-              <h2>{name}</h2>
-            </div>
-          );
+          return (<h2 key={index}>{name}</h2>);
         })}
       </div>
     );
