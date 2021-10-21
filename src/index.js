@@ -6,7 +6,8 @@ import "./components/App/App.css";
 //import Contador from "./components/Contador/Contador";
 //import DibujosComplejos from "./components/DibujosComplejos/DibujosComplejos";
 //import Deportes from './components/Deportes/Deportes';
-import Comics from "./components/Comic/Comics";
+//import Comics from "./components/Comic/Comics";
+import Jugadores from "./components/Jugadores/Jugadores";
 import reportWebVitals from "./reportWebVitals";
 
 //import Numeros from "./components/Numeros/Numeros";
@@ -16,12 +17,13 @@ ReactDOM.render(
     <div className="App">
       {/* <Contador Inicio="25" />
       <Contador Inicio="11" /> */}
-
       {/* <DibujosComplejos /> */}
-
       {/* <Deportes/> */}
       {/* <Numeros/> */}
-      <Comics/>
+      {/* <Comics/> */}
+      <Jugadores/>
+
+
     </div>
   </React.StrictMode>,
   document.getElementById("root")
