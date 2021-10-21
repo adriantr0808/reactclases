@@ -76,11 +76,17 @@ class Comics extends Component{
         descripcion: descripcion
       }
 
+     
+
+
       this.state.comics.push(comic);
       this.setState({
         comics: this.state.comics
       });
 
+    }
+    modificarComic = () => {
+        
     }
 
     render(){

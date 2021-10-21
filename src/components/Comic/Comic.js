@@ -15,6 +15,7 @@ class Comic extends Component {
                 var index = this.props.index;
                 this.props.eliminarComic(index);
             }} style={{background:'red', color:'white'}}>Eliminar comic</button>
+            <button>Modificar Comic</button>
             <h1 style={{color:'darkred'}}>{this.props.Comic.titulo}</h1>
             <h4 style={{color:'darkred'}}>{this.props.Comic.descripcion}</h4>
            
