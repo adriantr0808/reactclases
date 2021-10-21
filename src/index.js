@@ -5,9 +5,11 @@ import "./components/App/App.css";
 //import App from "./components/App/App";
 //import Contador from "./components/Contador/Contador";
 //import DibujosComplejos from "./components/DibujosComplejos/DibujosComplejos";
-import Deportes from './components/Deportes/Deportes';
+//import Deportes from './components/Deportes/Deportes';
+import Comics from "./components/Comic/Comics";
 import reportWebVitals from "./reportWebVitals";
-import Numeros from "./components/Numeros/Numeros";
+
+//import Numeros from "./components/Numeros/Numeros";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +20,8 @@ ReactDOM.render(
       {/* <DibujosComplejos /> */}
 
       {/* <Deportes/> */}
-      <Numeros/>
+      {/* <Numeros/> */}
+      <Comics/>
     </div>
   </React.StrictMode>,
   document.getElementById("root")
