@@ -81,18 +81,24 @@ class Comics extends Component {
       comics: this.state.comics,
     });
   };
-  modificarComic = (i) => {
+  modificarComic = (index) => {
     var titulo = document.getElementById("cajatitulo").value;
     var imagen = document.getElementById("cajaimagen").value;
     var descripcion = document.getElementById("cajadescripcion").value;
 
-    this.state.comics.map((comic, index) => {
-      if (i == index) {
-        comic.titulo = titulo;
-        comic.descripcion = descripcion;
-        comic.imagen = imagen;
-      }
-    });
+    //Se puede acceder al indice porque es una coleccion
+    var comic = this.state.comics[index];
+    comic.titulo = titulo;
+    comic.descripcion = descripcion;
+    comic.imagen = imagen;
+
+    // this.state.comics.map((comic, index) => {
+    //   if (i == index) {
+    //     comic.titulo = titulo;
+    //     comic.descripcion = descripcion;
+    //     comic.imagen = imagen;
+    //   }
+    // });
 
     this.setState({
       comics: this.state.comics,

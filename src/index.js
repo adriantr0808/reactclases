@@ -6,8 +6,8 @@ import "./components/App/App.css";
 //import Contador from "./components/Contador/Contador";
 //import DibujosComplejos from "./components/DibujosComplejos/DibujosComplejos";
 //import Deportes from './components/Deportes/Deportes';
-//import Comics from "./components/Comic/Comics";
-import Jugadores from "./components/Jugadores/Jugadores";
+import Comics from "./components/Comic/Comics";
+//import Jugadores from "./components/Jugadores/Jugadores";
 import reportWebVitals from "./reportWebVitals";
 
 //import Numeros from "./components/Numeros/Numeros";
@@ -20,8 +20,8 @@ ReactDOM.render(
       {/* <DibujosComplejos /> */}
       {/* <Deportes/> */}
       {/* <Numeros/> */}
-      {/* <Comics/> */}
-      <Jugadores/>
+       <Comics/> 
+      {/* <Jugadores/> */}
 
 
     </div>
