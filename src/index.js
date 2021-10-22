@@ -6,9 +6,16 @@ import "./components/App/App.css";
 //import Contador from "./components/Contador/Contador";
 //import DibujosComplejos from "./components/DibujosComplejos/DibujosComplejos";
 //import Deportes from './components/Deportes/Deportes';
-import Comics from "./components/Comic/Comics";
+//import Comics from "./components/Comic/Comics";
 //import Jugadores from "./components/Jugadores/Jugadores";
 import reportWebVitals from "./reportWebVitals";
+import Router from "./components/Router";
+import MenuRutas from "./components/Rutas/MenuRutas";
+//import Cine from "./components/Rutas/Cine";
+//import Television from "./components/Rutas/Television";
+//import Musica from "./components/Rutas/Musica";
+//import Home from "./components/Rutas/Home";
+;
 
 //import Numeros from "./components/Numeros/Numeros";
 
@@ -20,8 +27,10 @@ ReactDOM.render(
       {/* <DibujosComplejos /> */}
       {/* <Deportes/> */}
       {/* <Numeros/> */}
-       <Comics/> 
+      {/* <Comics/>  */}
+      <MenuRutas/>
       {/* <Jugadores/> */}
+     <Router/>
 
 
     </div>
