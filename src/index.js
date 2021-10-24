@@ -10,10 +10,12 @@ import "./components/App/App.css";
 //import Jugadores from "./components/Jugadores/Jugadores";
 import reportWebVitals from "./reportWebVitals";
 import TablaMultiplicarSelect from "./components/Formularios/TablaMultiplicarSelect";
+import PracticsCollatz from "./components/Formularios/PracticsCollatz";
+import TablaMultiplicarCheck from "./components/Formularios/TablaMultiplicarCheck";
 // import Router from "./components/Router";
 // import MenuRutas from "./components/Rutas/MenuRutas";
 // import EjemploSimple from "./components/Formularios/EjemploSimple";
-// import Collatz from "./components/Formularios/Collatz";
+ //import Collatz from "./components/Formularios/Collatz";
 // import TablaMultiplicar from "./components/Formularios/TablaMultiplicar";
 //import Cine from "./components/Rutas/Cine";
 //import Television from "./components/Rutas/Television";
@@ -35,11 +37,12 @@ ReactDOM.render(
       {/* <Jugadores/> */}
       {/* <MenuRutas/>
      <Router/> */}
-
      {/* <EjemploSimple/> */}
      {/* <Collatz/> */}
      {/* <TablaMultiplicar/> */}
-     <TablaMultiplicarSelect/>
+     {/* <TablaMultiplicarSelect/> */}
+     {/* <PracticsCollatz/> */}
+     <TablaMultiplicarCheck/>
     </div>
   </React.StrictMode>,
   document.getElementById("root")

@@ -46,7 +46,7 @@ export default class TablaMultiplicarSelect extends Component {
                 <select ref={this.optionSelect}>{this.generarOptions()}</select>
                 <button>Mostrar tabla</button>
                 </form>
-                <table style={{margin:'auto'}}border='2'>
+                <table style={{margin:'auto'}} border='2'>
                 <thead>
                     <tr>
                     <th>Operación</th>
