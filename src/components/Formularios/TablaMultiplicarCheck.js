@@ -31,14 +31,14 @@ import React, { Component } from 'react'
         }
 
         //Funcion que determina si el checkbox esta marcado o no y se crea la tabla de multiplicar
-        cambio = () =>{
+        cambio = (e) =>{
             this.setState({
                 check: e.target.checked
             });
             
             var array = []; // Array para guardar los resultados de las multiplicaciones
 
-            if(this.state.check==false){
+            if(this.state.check === false){
               var numero = e.target.value;
               for( var i = 0; i <= 10; i++){
                 var multi = numero * i;
@@ -61,13 +61,15 @@ import React, { Component } from 'react'
 
         render() {
             return (
-                <div >
-                    <form onSubmit={this.generarCheck}>
+                <div>
+
+                <form onSubmit={this.generarCheck}>
                 <button >Generar numeros</button>
                 <div>{this.state.checksArr.map((num, index) => {
                    return(<div><label key={index}>{num}</label><input type='checkbox' value={num} onChange={this.cambio}></input></div>)
                 })}</div>
                 </form>
+
                 <div>
                     <table border='1' style={{margin:'auto'}}>
                     <thead>

@@ -9,9 +9,10 @@ import "./components/App/App.css";
 //import Comics from "./components/Comic/Comics";
 //import Jugadores from "./components/Jugadores/Jugadores";
 import reportWebVitals from "./reportWebVitals";
-import TablaMultiplicarSelect from "./components/Formularios/TablaMultiplicarSelect";
-import PracticsCollatz from "./components/Formularios/PracticsCollatz";
-import TablaMultiplicarCheck from "./components/Formularios/TablaMultiplicarCheck";
+//import TablaMultiplicarSelect from "./components/Formularios/TablaMultiplicarSelect";
+//import PracticsCollatz from "./components/Formularios/PracticsCollatz";
+//import TablaMultiplicarCheck from "./components/Formularios/TablaMultiplicarCheck";
+import SeleccionMultiple from "./components/Formularios/SeleccionMultiple";
 // import Router from "./components/Router";
 // import MenuRutas from "./components/Rutas/MenuRutas";
 // import EjemploSimple from "./components/Formularios/EjemploSimple";
@@ -42,7 +43,8 @@ ReactDOM.render(
      {/* <TablaMultiplicar/> */}
      {/* <TablaMultiplicarSelect/> */}
      {/* <PracticsCollatz/> */}
-     <TablaMultiplicarCheck/>
+     {/* <TablaMultiplicarCheck/> */}
+     <SeleccionMultiple/>
     </div>
   </React.StrictMode>,
   document.getElementById("root")
