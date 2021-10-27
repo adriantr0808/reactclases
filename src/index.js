@@ -7,14 +7,15 @@ import "./components/App/App.css";
 //import DibujosComplejos from "./components/DibujosComplejos/DibujosComplejos";
 //import Deportes from './components/Deportes/Deportes';
 //import Comics from "./components/Comic/Comics";
-//import Jugadores from "./components/Jugadores/Jugadores";
+import Jugadores from "./components/Jugadores/Jugadores";
 import reportWebVitals from "./reportWebVitals";
 //import TablaMultiplicarSelect from "./components/Formularios/TablaMultiplicarSelect";
 //import PracticsCollatz from "./components/Formularios/PracticsCollatz";
-//import TablaMultiplicarCheck from "./components/Formularios/TablaMultiplicarCheck";
+import TablaMultiplicarCheck from "./components/Formularios/TablaMultiplicarCheck";
 import SeleccionMultiple from "./components/Formularios/SeleccionMultiple";
  import Router from "./components/Router";
  import MenuRutas from "./components/Rutas/MenuRutas";
+ import Numeros from "./components/Numeros/Numeros";
 // import EjemploSimple from "./components/Formularios/EjemploSimple";
  //import Collatz from "./components/Formularios/Collatz";
 // import TablaMultiplicar from "./components/Formularios/TablaMultiplicar";
@@ -24,7 +25,7 @@ import SeleccionMultiple from "./components/Formularios/SeleccionMultiple";
 //import Home from "./components/Rutas/Home";
 ;
 
-//import Numeros from "./components/Numeros/Numeros";
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -33,9 +34,9 @@ ReactDOM.render(
       <Contador Inicio="11" /> */}
       {/* <DibujosComplejos /> */}
       {/* <Deportes/> */}
-      {/* <Numeros/> */}
+       <Numeros/> 
       {/* <Comics/>  */}
-      {/* <Jugadores/> */}
+       <Jugadores/> 
       <MenuRutas/> 
      <Router/> 
      {/* <EjemploSimple/> */}
@@ -43,8 +44,8 @@ ReactDOM.render(
      {/* <TablaMultiplicar/> */}
      {/* <TablaMultiplicarSelect/> */}
      {/* <PracticsCollatz/> */}
-     {/* <TablaMultiplicarCheck/> */}
-     {/* <SeleccionMultiple/> */}
+      <TablaMultiplicarCheck/> 
+      <SeleccionMultiple/> 
     </div>
   </React.StrictMode>,
   document.getElementById("root")
